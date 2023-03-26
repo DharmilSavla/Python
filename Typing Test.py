@@ -16,8 +16,6 @@ def typingtest():
     
     print("Press any key to begin")
     start = input()
-    if start == 'dog':
-        print("Stop it Key")
     for i in range(0,3):
         startTime = time.time()
         word = dictionary.get_random_word()
