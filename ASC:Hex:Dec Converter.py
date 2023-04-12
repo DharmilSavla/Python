@@ -78,8 +78,6 @@ def num_choice():
         elif choice == "5":
             print("Session Ended")
             input()
-        elif choice == "Dog" or choice == "dog":
-            print("Nice try, Mr Key, but stop it.")
         else:
             print("Invalid input, please enter a number between 1 and 5")
 #----------------------------------------------------------------        
